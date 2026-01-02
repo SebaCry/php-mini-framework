@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\Request;
+use App\Http\Request;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 $request = new Request();
-// $request->send();
+$request->send();
